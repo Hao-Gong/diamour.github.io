@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Xixia</title>
-		<description>Welcome to Xixia！</description>
+		<title>Hao</title>
+		<description>Hao's blog！</description>
 		<link>https://github.com/zxixia/jekyll-xixia/jekyll-xixia</link>
 		<atom:link href="https://github.com/zxixia/jekyll-xixia/jekyll-xixia/feed.xml" rel="self" type="application/rss+xml" />
 		
