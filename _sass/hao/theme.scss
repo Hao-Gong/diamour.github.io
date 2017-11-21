@@ -67,6 +67,36 @@ body {
 	margin-bottom: 10px;
 }
 
+/* sx_head bar */
+.sx_head {
+    color: $side-bar-color;
+    background-color: $side-bar-background-color;
+    font-size: 1.1em;
+}
+
+.sx_head h1 {
+    font-size: 1.3em;
+}
+
+.sx_head a {
+    color: $side-bar-a-color;
+}
+
+.sx_head li {
+    margin-top: .7em;
+    line-height: 1em;
+}
+
+.sx_head a:hover {
+    color: $side-bar-a-hover-color;
+}
+
+/* hao logo */
+.sx_head-header {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 .container-left {
     margin: 0;
     padding-bottom:60px;
