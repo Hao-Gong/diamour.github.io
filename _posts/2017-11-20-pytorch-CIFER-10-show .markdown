@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "如何在python当中显示CIFAR-10图片"
-categories: Pytorch
-tags: Other
+categories: pytorch
+tags: pytorch CIFAR-10 学习笔记
 author: Hao
-description: 
+description: python当中显示CIFAR-10图片
 ---
+#### 第一次写个人博客有点小紧张，先搞点水货上去发了再说。。。
 ### 简单介绍CIFAR10
 
 CIFAR-10包含了10种标签，尺寸大小为32x32，深度为3的RGB图像格式，有6个数据集，其中一个测试集，用于交叉验证正确率。每个集合10000个样本，总共60000个样本。样本包含：
