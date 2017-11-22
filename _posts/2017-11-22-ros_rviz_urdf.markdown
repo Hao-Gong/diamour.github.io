@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ROS：基于rviz和ufdf的3D模型制作与控制"
+title:  "ROS：基于rviz和urdf的3D模型制作与控制"
 categories: ROS
 tags: ROS RVIZ Robot 经验分享
 author: Hao
