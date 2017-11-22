@@ -132,8 +132,6 @@ In summary, word embeddings are a representation of the *semantics* of a word, e
 import torch
 import torch.autograd as autograd
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
 
 #设置随机数种子，产生随机数池，计算机当中不存在真正的随机数，需要初始化随机数序列
 #在其他语言中可能是调用系统的当前时间作为随机数种子
@@ -172,6 +170,8 @@ torch.manual_seed(2)参数是2的时候，输出如下：
 	[torch.FloatTensor of size 3x5]
 
 这个也很清楚的看到随机数生成器是怎么工作的。
+
+#### 下面介绍pytorch N-Gram Language Modeling方法的实现
 
 
 ### All Reference:

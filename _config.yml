@@ -16,7 +16,7 @@ date_format:
   title: "%B-%-d-%Y"
 #  archive: "%b"
   categories: "%b-%Y"
-#  tag: "%b-%Y"
+  tag: "%b-%Y"
 # Language
 #可以切换不同的语言
 lan: "en"
