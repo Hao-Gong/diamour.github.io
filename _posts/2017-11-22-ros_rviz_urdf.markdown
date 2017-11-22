@@ -11,7 +11,7 @@ description: 基于ROS系统3D建模，并且控制
 
 好了不讲这么多了，先赶紧开始今天内容。
 
-#### ufdf介绍：
+#### urdf介绍：
 
 urdf(Unified Robot Description Format)按照字面理解就是统一的机器人描述格式，它本质是一种XML结构语言。它有什么好处呢，可以快速的搭建机器人的各个零部件并且默认设置了tf(transformation tree)坐标树进行坐标转换。假设没有这个的话，光在rviz创建一个长方体就要几十行的C++/Python代码(这个蠢事我已经做过了)。来，现在我们开始一步步操作保证运行：
 
