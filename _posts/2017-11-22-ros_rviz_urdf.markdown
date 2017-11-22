@@ -419,6 +419,7 @@ if __name__ == '__main__':
 		pass
 ```
 界面图片：
+
 ![urdf3](/assets/images/ros/urdf3.png)
 
 #### roslannch文件，建议建一个roslaunch_pkg，专门放launch文件，这里model.launch：
