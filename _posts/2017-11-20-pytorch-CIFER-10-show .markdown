@@ -69,6 +69,10 @@ plt.show()
 # img.show()
 ```
 
+结果如下（哎呀，好模糊啊，我自己都看不出来这个是什么，为什么要让计算机识别呢。。。）：
+
+![nlp1](/assets/images/cifar1.png)
+
 直接运行一下，就行显示了，后面讲讲怎么把CIFAR-10读取然后转换成Pytorch tensor的格式，用于torch.utils.data.DataLoader()进行样本加载，虽然pytorch自带CIFAR-10样本集，非常方便，这样做是为了解tensor的格式，便于将来使用自己的图片。
 
 [My GIT link](https://github.com/diamour/tf_learning/tree/master/pt_learning)
