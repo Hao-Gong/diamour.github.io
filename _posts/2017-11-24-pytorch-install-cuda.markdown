@@ -4,9 +4,9 @@ title:  "安装pytorch cuda-8.0"
 categories: pytorch
 tags: pytorch install 学习笔记
 author: Hao
-description: 安装pytorch cuda8.0
+description: 安装pytorch cuda-8.0
 ---
-#### 上周archlinux崩溃了，不想再麻烦用u盘挂载和修复了，重新装了ubuntu 16.10。这里发现一个问题，ubuntu 16.04.03 lts/ubuntu 17.10对于新一代intel KabyLake架构支持不行，U盘启动盘并不能进入界面。同时，低于ubuntu 16.04.01 lts的版本，新的intel wifi不能识别，其内核是4.4版本。所以最后只能选则了16.10，内核版本4.8。跑是能跑了，ros估计不能装kinetic的版本了。本文讲一下怎么安装pytorch和cuda8.0,至于支持卷积的cudnn暂时先用不到，下次再装：[cudnn](https://developer.nvidia.com/cudnn)，这个需要在Nvidia官网注册账户。
+#### 上周archlinux崩溃了，不想再麻烦用u盘挂载和修复了，重新装了ubuntu 16.10。这里发现一个问题，ubuntu 16.04.03 lts/ubuntu 17.10对于新一代intel KabyLake架构支持不行，U盘启动盘并不能进入界面。同时，低于ubuntu 16.04.01 lts的版本，新的intel wifi不能识别，其内核是4.4版本。所以最后只能选则了16.10，内核版本4.8。跑是能跑了，ros估计不能装kinetic的版本了。本文讲一下怎么安装pytorch和cuda8.0/cuda9.0。
 
 #### 我的电脑配置是：
 	i7 7700HQ 
@@ -63,6 +63,23 @@ Sun Nov 26 11:23:02 2017
 	sudo apt-get update
 	sudo apt-get install cuda
 	sudo apt-get install nvidia-cuda-toolkit
+
+然后发现在/usr/local安装了cuda 9.0
+
+安装支持卷积的cudnn：[cudnn](https://developer.nvidia.com/cudnn)，这个需要在Nvidia官网注册账户。解压文件：
+
+	cd /home/diamous/cudnn/cuda/lib64
+	sudo cp lib* /usr/local/cuda/lib64/
+	cd ../
+	cd include/
+	sudo cp cudnn.h /usr/local/cuda/include/
+
+
+好吧，既然pytorch也支持cuda 9.0了，我们重新装pytorch：
+
+[pytorch官网传送门](http://pytorch.org/)，选择python3.6 conda版本：
+
+    conda install pytorch torchvision cuda80 -c soumith
 
 然后我们来复制粘帖一下这个使用CUDA的程序，注释掉.cuda()部分，你可以发现CPU计算速度慢很多：
 ```
