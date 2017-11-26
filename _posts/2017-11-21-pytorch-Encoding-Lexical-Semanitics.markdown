@@ -171,8 +171,9 @@ torch.manual_seed(2)参数是2的时候，输出如下：
 
 这个也很清楚的看到随机数生成器是怎么工作的。
 
-#### 下面介绍pytorch N-Gram Language Modeling方法的实现
+#### 这篇文章太长了，下篇文章介绍pytorch N-Gram Language Modeling方法的实现
 
+[pytorch N-Gram Language Modeling方法的实现](/pytorch/2017/11/24/pytorch-nlp-n-gram.html) 
 
 ### All Reference:
 
