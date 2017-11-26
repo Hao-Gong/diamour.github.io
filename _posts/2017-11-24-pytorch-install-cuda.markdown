@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "安装pytorch cuda-8.0"
+title:  "安装pytorch cuda"
 categories: pytorch
 tags: pytorch install 学习笔记
 author: Hao
-description: 安装pytorch cuda-8.0
+description: 安装pytorch cuda
 ---
 #### 上周archlinux崩溃了，不想再麻烦用u盘挂载和修复了，重新装了ubuntu 16.10。这里发现一个问题，ubuntu 16.04.03 lts/ubuntu 17.10对于新一代intel KabyLake架构支持不行，U盘启动盘并不能进入界面。同时，低于ubuntu 16.04.01 lts的版本，新的intel wifi不能识别，其内核是4.4版本。所以最后只能选则了16.10，内核版本4.8。跑是能跑了，ros估计不能装kinetic的版本了。本文讲一下怎么安装pytorch和cuda8.0/cuda9.0。
 
