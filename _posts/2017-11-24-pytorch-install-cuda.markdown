@@ -14,6 +14,7 @@ description: 安装pytorch cuda8.0
 
 其实4g的显卡内存一般的CNN还真可以勉强跑一跑，以后工作了配一台好电脑。
 
+### Ubuntu 16.04版本安装办法：
 [pytorch官网传送门](http://pytorch.org/)，选择python3.5版本(我的是3.5)和cuda8.0，直接把命令贴出来
 
 ```
@@ -23,6 +24,13 @@ pip3 install torchvision
 目前Nvidia的官网默认最新的Cuda9.0,但是我们想要用支持比较好的Cuda8.0,上链接：[cuda8.0](https://developer.nvidia.com/cuda-toolkit-archive)。这里我下载了这个[cuda8.0 ga2 2017](https://developer.nvidia.com/cuda-80-ga2-download-archive)，下载后运行：
 	sudo sh cuda_8.0.61_375.26_linux.run
 
+然后不要忘记运行：
+
+	sudo apt-get update
+	sudo apt-get install cuda
+
+
+### Ubuntu 16.10版本安装办法：
 后来我发现ubuntu 16.10并不能安装上官网提供的Cuda8.0, 还有一个办法就是载程序update里面就能够更新显卡驱动。
 安装好以后，需要重启，然后：
 
@@ -50,7 +58,13 @@ Sun Nov 26 11:23:02 2017
 +-----------------------------------------------------------------------------+
 ```
 
-说明安装好了，然后我们来复制粘帖一下这个使用CUDA的程序，注释掉.cuda()部分，你可以发现CPU计算速度慢很多：
+说明安装好了驱动，现在我们来安装Cuda 8.0：
+	
+	sudo apt-get update
+	sudo apt-get install cuda
+	sudo apt-get install nvidia-cuda-toolkit
+
+然后我们来复制粘帖一下这个使用CUDA的程序，注释掉.cuda()部分，你可以发现CPU计算速度慢很多：
 ```
 from __future__ import print_function
 import argparse
