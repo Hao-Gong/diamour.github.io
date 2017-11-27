@@ -23,6 +23,14 @@ description: 为git pages添加gitment和百度流量统计插件
 
 上面这个你可以直接从百度流量统计中生成复制出来。push以后，你也可以检测一下，百度是否能够检测到这段代码。
 
+下面就是百度流量检测的界面：
+
+![blog2](/assets/images/blog/blog2.png)
+
+可以看到访问的是德国的IP：
+
+![blog1](/assets/images/blog/blog1.png)
+
 ### gitment插件安装：
 大部分参考了[JacobPan](http://www.jianshu.com/p/2940e0eda89f) 
 
