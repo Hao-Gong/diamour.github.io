@@ -82,12 +82,14 @@ layout: default
         <section id="isso-thread"></section>
         {% endif %}
     {% endif %}
-</div>
-<div class="pagination">
-    {% if page.next %}
-    <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">{{ trans.newer_post }}</a>
-    {% endif %}
-    {% if page.previous %}
-    <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">{{ trans.older_post }}</a>
-    {% endif %}
+
+    <div class="pagination">
+        {% if page.next %}
+        <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">{{ trans.newer_post }}</a>
+        {% endif %}
+        {% if page.previous %}
+        <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">{{ trans.older_post }}</a>
+        {% endif %}
+    </div>
+
 </div>
