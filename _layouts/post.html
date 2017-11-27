@@ -92,4 +92,21 @@ layout: default
         {% endif %}
     </div>
 
+
+
+    <div id="gitmentContainer"></div>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <script>
+        var gitment = new Gitment({
+            owner: 'diamour',
+            repo: 'git@github.com:diamour/diamour.github.io.git',
+            oauth: {
+                client_id: '19efc867ab61a19d6d14',
+                client_secret: 'b3a3500962ec0afc27187b9792a6fcec28304c57',
+            },
+        });
+        gitment.render('gitmentContainer');
+    </script>
+
 </div>
