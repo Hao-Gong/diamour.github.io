@@ -205,7 +205,7 @@ print("3 ",np.dot(Hidden_state,Seen))
 我们只能观测到他三次分别最有可能去什么地方，但是用的什么交通工具不知道。一般在时间序列或者语义分析的时候，隐式马尔可夫可以从观测的状态中，猜测隐含层的状态。比如这个例子中，发现小明在公园，请问，他最有可能乘了什么交通工具，我们马上就能想到是walk。
 
 ### Maximum entropy Markov models (MEMMs) 最大交叉熵的隐式马尔可夫链
-#### [关于最大熵可以在我这篇文章中看到](/数学基础/2017/11/26/python-entropy.html)
+#### [关于最大熵可以在我这篇文章中看到](/数学基础/2017/11/28/python-maximum-entropy.html)
 
 
 ### Conditional Random Fields(CRFs) 条件随机场
