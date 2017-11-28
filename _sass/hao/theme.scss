@@ -15,12 +15,13 @@ body {
 
 .footer {
     text-align: center;
+    font-size: 0.9em;
     color: $footer-color;
     position:absolute;
     bottom:0;
     left:0;
     width:100%;
-    min-height:40px;
+    min-height:10px;
     background-color:$footer-background-color;
 }
 
@@ -34,7 +35,7 @@ body {
 }
 
 .footer p {
-    margin-top:10px;
+    margin-top:5px;
 }
 
 /* side bar */
