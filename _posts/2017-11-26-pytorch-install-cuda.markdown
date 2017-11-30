@@ -82,7 +82,7 @@ Sun Nov 26 11:23:02 2017
     conda install pytorch torchvision cuda80 -c soumith
 
 然后我们来复制粘帖一下这个使用CUDA的程序，注释掉.cuda()部分，你可以发现CPU计算速度慢很多：
-```
+```python
 from __future__ import print_function
 import argparse
 import torch

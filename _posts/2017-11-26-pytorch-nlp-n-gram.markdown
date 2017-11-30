@@ -142,11 +142,21 @@ print(" ".join(init_test_list))
 
 这里很惊喜的可以看到，我们给出的初始化句子“我们能够从”并不是原文的组合，但是也能组合出有意义的完整的句子，很令人惊喜，期待后面强大的LSTM的表现！
 
+### 除了N-Gram之外，还有一些上下文提取的技术：
+
+#### CBOW(Continuous Bag of Words) 连续词袋模型
+
+#### Skip-Gram(SG) 跳跃选词模型
+
+我们可以通过Skip-grams
+
 [我的Github链接](https://github.com/diamour/tf_learning/blob/master/pt_learning/NLP/Ngram-cn1.py) 
 
 ### All Reference:
 
 [1.pytorch.org](http://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html#word-embeddings-encoding-lexical-semantics) 
+
+[2.词向量总结笔记](http://www.shuang0420.com/2016/06/21/%E8%AF%8D%E5%90%91%E9%87%8F%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0%EF%BC%88%E7%AE%80%E6%B4%81%E7%89%88%EF%BC%89/) 
 
 ##### 版权归@Hao所有，转载标记来源。
 

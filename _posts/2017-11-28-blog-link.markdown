@@ -10,6 +10,8 @@ description: 整理一下我在学习的时候发现的好的博客
 
 [1.无良超的博客](http://wulc.me/) 
 
+[2.专门做NLP的徐阿衡](http://www.shuang0420.com/)
+
 [2.奶一口住我楼下的墨子码的博客](https://evachenzehua.github.io/) 
 
 ##### 版权归@Hao所有，转载标记来源。
