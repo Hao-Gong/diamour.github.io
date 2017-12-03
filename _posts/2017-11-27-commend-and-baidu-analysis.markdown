@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "为你的git pages添加gitment和百度流量统计插件"
+title:  "为你的git pages添加gitment、百度流量统计插件和RSS源"
 categories: kyjell
 tags: kyjell 经验分享
 author: Hao
@@ -54,6 +54,14 @@ description: 为git pages添加gitment和百度流量统计插件
 repo: 'diamour.github.io'填写的不是'git@github.com:diamour/diamour.github.io.git'，上文没讲清楚。
 
 [我的Github链接](https://github.com/diamour/diamour.github.io) 
+
+### RSS订阅源：
+这个用来干什么的呢？就是别人可以从第三方的网站或者插件上看到自己同时订阅的几个网站或者博客文章，例如：
+
+![blog3](/assets/images/blog/blog3.png)
+
+当你订阅的网站有更新的时候，可以在上面看到推送，我感觉这个就是自己为自己制作的新闻端，这里推荐RSS订阅网站：[inoreader](https://www.inoreader.com)。好了，现在我们开始为自己的博客添加RSS。这里参考[博文](http://blog.csdn.net/itmyhome1990/article/details/42919429)。
+
 
 ### All Reference:
 
